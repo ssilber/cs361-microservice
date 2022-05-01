@@ -1,0 +1,7 @@
+services:
+  app:
+    build: .
+    command: python microservice.py
+    network_mode: host
+    volumes:
+      - ./:/microservice

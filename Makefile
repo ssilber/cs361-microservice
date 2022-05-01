@@ -1,0 +1,2 @@
+microservice:
+	docker compose up
