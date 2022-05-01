@@ -1,5 +1,5 @@
 ENDPOINT = "http://0.0.0.0:5000/api/clubs"
-MICROSERVICE_FILEPATH = "test.txt"
+MICROSERVICE_FILEPATH = "microservice.txt"
 MICROSERVICE_START_TEXT = "GET"
 
 
