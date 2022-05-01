@@ -1,3 +1,5 @@
+from time import sleep
+
 import requests
 
 from common import (
@@ -10,6 +12,7 @@ from common import (
 
 
 def main():
+    sleep(1)
     line = read_file(filepath=MICROSERVICE_FILEPATH)
     if line == MICROSERVICE_START_TEXT:
         r = requests.get(ENDPOINT)
