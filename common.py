@@ -1,4 +1,4 @@
-ENDPOINT = "http://0.0.0.0:5000/api/clubs"
+ENDPOINT = "https://spring-street-app.uw.r.appspot.com/cocktails"
 MICROSERVICE_FILEPATH = "microservice.txt"
 MICROSERVICE_START_TEXT = "GET"
 
