@@ -21,7 +21,7 @@ def main():
         )
         r = requests.get(ENDPOINT)
         json_blob = r.json()
-        num_objects = len(json_blob)
+        num_objects = len(json_blob["cocktails"])
         print(
             f"Found {num_objects} objects at {ENDPOINT}. Writing to {MICROSERVICE_FILEPATH}"
         )
